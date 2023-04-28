@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  /* outline: solid 1px red; */
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+
+:root {
+  --main-color: #785e54;
+  --second-color: #262f35;
+  --white-color: #e8e8e8;
+  --main-font: 'Roboto';
+}

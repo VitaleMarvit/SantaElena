@@ -1,0 +1,156 @@
+.nav {
+    width: 100vw;
+    height: 8vh;
+    padding-right: 4rem;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow: 0 0 10px -1px #000000c9;
+}
+
+
+
+/* - - - - - - - - - -   Hamburguer Botton   - - - - - - - - - - */
+
+
+
+#hamburguer{
+    color: var(--white);
+    font-size: 40px;
+    line-height: 60px;
+    cursor: pointer;
+    display: flex;
+    background-color: var(--main-color);
+    height: 100%;
+    width: 20%;
+    border-bottom-right-radius: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.three{
+    padding: 1px 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--white-color);
+    text-align: center;
+}
+  
+.hamburger .line{
+    width: 26px;
+    height: 4px;
+    background-color: var(--white-color);
+    display: block;
+    margin: 6px auto 6px 4px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+#hamburger-6.is-active{
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  
+#hamburger-6.is-active .line:nth-child(2){
+    width: 0px;
+}
+  
+#hamburger-6.is-active .line:nth-child(1),
+#hamburger-6.is-active .line:nth-child(3){
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+  
+#hamburger-6.is-active .line:nth-child(1){
+    -webkit-transform: translateY(13px);
+    -ms-transform: translateY(13px);
+    -o-transform: translateY(13px);
+    transform: translateY(7px);
+}
+  
+#hamburger-6.is-active .line:nth-child(3){
+    -webkit-transform: translateY(-6px) rotate(90deg);
+    -ms-transform: translateY(-13px) rotate(90deg);
+    -o-transform: translateY(-13px) rotate(90deg);
+    transform: translateY(-13px) rotate(90deg);
+}
+
+
+
+/* - - - - - - - - - -   Titulo e Imagen   - - - - - - - - - - */
+
+
+
+.info-container-nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-container-nav {
+    font-family: var(--main-font);
+}
+
+.titulo-container-nav p {
+    font-size: 1.2rem;
+    letter-spacing: .25rem;
+    font-weight: 300;
+}
+
+.titulo-container-nav h2 {
+    font-size: 1.6rem;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+
+
+/* - - - - - - - - - -   Secciones   - - - - - - - - - - */
+
+
+
+.ul-container-nav {
+    width: 90vw;
+    height: auto;
+    background-color: var(--main-color);
+    color: #fff;
+    font-family: var(--main-font);
+    padding: 6rem 1.2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 3.2rem;
+    position: absolute;
+    top: calc(8vh - 1px);
+    left: -100%;
+    transition: all .8s ease-in-out;
+}
+
+.ul-container-nav-active {
+    left: 0;
+}
+
+.ul-container-nav li {
+    font-size: 2rem;
+    padding-left: 3.2rem;
+    font-weight: 300;
+}
