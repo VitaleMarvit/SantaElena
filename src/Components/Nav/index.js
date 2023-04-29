@@ -10,7 +10,7 @@ function Nav() {
     return (
         <nav className="nav">
 
-            <div id="hamburguer" className={hamburguer ? "three col filter" : "three col"} onClick={() => {setHamburguer(!hamburguer)}}>
+            <div id="hamburguer" className={hamburguer ? "three col hambuger-active filter" : "three col"} onClick={() => {setHamburguer(!hamburguer)}}>
                 <div 
                     className={hamEffect ? 'hamburger is-active' : 'hamburger'} 
                     onClick={() => setHamEffect(!hamEffect)}
@@ -33,52 +33,65 @@ function Nav() {
                 </div>
             </div>
 
-            <ul className={hamburguer ? "ul-container-nav ul-container-nav-active" : "ul-container-nav"}>
-                <li>
-                    <Link 
-                        to=""
-                        onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
-                    >
-                        ¿Que Ofrecemos?
-                    </Link>
-                </li>
+            <div className={hamburguer ? "container-modal-nav container-modal-nav-active" : "container-modal-nav"}>
+                <div className="container-titulo-modal-nav">
+                    <div>
+                        <img />
+                    </div>
 
-                <li>
-                    <Link 
-                        to=""
-                        onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
-                    >
-                        ¿Quines Somos
-                    ?</Link>
-                </li>
+                    <div className="titulo-container-nav">
+                        <p>GRUPO</p>
+                        <h2>SANTA ELENA</h2>
+                    </div>
+                </div>
 
-                <li>
-                    <Link 
-                        to="proyecto"
-                        onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
-                    >
-                        El Proyecto
-                    </Link>
-                </li>
+                <ul className={hamburguer ? "ul-container-nav ul-container-nav-active" : "ul-container-nav"}>
+                    <li>
+                        <Link 
+                            to=""
+                            onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                        >
+                            ¿Que Ofrecemos?
+                        </Link>
+                    </li>
 
-                <li>
-                    <Link 
-                        to=""
-                        onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
-                    >
-                        Caracteristicas
-                    </Link>
-                </li>
+                    <li>
+                        <Link 
+                            to=""
+                            onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                        >
+                            ¿Quines Somos
+                        ?</Link>
+                    </li>
 
-                <li>
-                    <Link 
-                        to=""
-                        onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
-                    >
-                        Contactanos
-                    </Link>
-                </li>
-            </ul>
+                    <li>
+                        <Link 
+                            to="proyecto"
+                            onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                        >
+                            El Proyecto
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link 
+                            to=""
+                            onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                        >
+                            Caracteristicas
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link 
+                            to=""
+                            onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                        >
+                            Contactanos
+                        </Link>
+                    </li>
+                </ul>
+            </div>
 
         </nav>
     )

@@ -1,7 +1,6 @@
 .nav {
     width: 100vw;
     height: 8vh;
-    padding-right: 4rem;
     background-color: var(--white-color);
     display: flex;
     align-items: center;
@@ -22,20 +21,29 @@
     cursor: pointer;
     display: flex;
     background-color: var(--main-color);
-    height: 100%;
     width: 20%;
     border-bottom-right-radius: 35%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    z-index: 999;
+    top: 0;
 }
 
 .three{
     padding: 1px 8px;
+    height: 8vh;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: var(--white-color);
     text-align: center;
+}
+
+.hambuger-active {
+    padding-top: 3px;
+    height: 7.7vh;
+
 }
   
 .hamburger .line{
@@ -48,6 +56,9 @@
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.line-active {
 }
 
 .hamburger:hover{
@@ -99,7 +110,7 @@
 
 
 .info-container-nav {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,26 +134,54 @@
 
 
 
-/* - - - - - - - - - -   Secciones   - - - - - - - - - - */
+/* - - - - - - - - - -   Menu   - - - - - - - - - - */
 
 
 
-.ul-container-nav {
+.container-modal-nav {
     width: 90vw;
     height: auto;
+    padding-bottom: 6rem;
     background-color: var(--main-color);
     color: #fff;
     font-family: var(--main-font);
-    padding: 6rem 1.2rem;
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     row-gap: 3.2rem;
     position: absolute;
-    top: calc(8vh - 1px);
+    top: 0;
     left: -100%;
     transition: all .8s ease-in-out;
+    border-bottom-right-radius: 10%;
+}
+
+.container-modal-nav-active {
+    left: 0;
+}
+
+.container-titulo-modal-nav {
+    width: 85%;
+    height: 8vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #fff;
+}
+
+.ul-container-nav {
+    width: 100%;
+    height: auto;
+    background-color: var(--main-color);
+    color: #fff;
+    font-family: var(--main-font);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1.2rem;
 }
 
 .ul-container-nav-active {
@@ -150,7 +189,16 @@
 }
 
 .ul-container-nav li {
+    width: 100%;
     font-size: 2rem;
     padding-left: 3.2rem;
-    font-weight: 300;
+    font-weight: 500;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    transition: all .5s ease-in-out;
+}
+
+.ul-container-nav li:hover {
+    background-color: #fff;
+    color: var(--main-color);
 }
