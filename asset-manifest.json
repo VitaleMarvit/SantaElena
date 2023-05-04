@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f73737f9.css",
-    "main.js": "/static/js/main.cf426041.js",
-    "index.html": "/index.html",
-    "main.f73737f9.css.map": "/static/css/main.f73737f9.css.map",
-    "main.cf426041.js.map": "/static/js/main.cf426041.js.map"
+    "main.css": "/SantaElena/static/css/main.133bd621.css",
+    "main.js": "/SantaElena/static/js/main.289b294c.js",
+    "static/media/card2.jpeg": "/SantaElena/static/media/card2.f7430080dceac93eb21b.jpeg",
+    "static/media/card3.jpeg": "/SantaElena/static/media/card3.cb4307a11429988e1a07.jpeg",
+    "index.html": "/SantaElena/index.html",
+    "main.133bd621.css.map": "/SantaElena/static/css/main.133bd621.css.map",
+    "main.289b294c.js.map": "/SantaElena/static/js/main.289b294c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f73737f9.css",
-    "static/js/main.cf426041.js"
+    "static/css/main.133bd621.css",
+    "static/js/main.289b294c.js"
   ]
 }
