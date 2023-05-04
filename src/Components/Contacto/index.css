@@ -1,0 +1,110 @@
+.section-contacto {
+    width: 100vw;
+    height: auto;
+    padding: 6rem 3.2rem 6rem 3.2rem;
+    font-family: var(--main-font);
+    background-color: var(--second-color);
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 2rem;
+}
+
+
+
+/* - - - - - - - - - -   Titulo   - - - - - - - - - - */
+
+
+
+.container-titulo-section-contacto {
+    width: 10%;
+    height: auto;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    white-space: nowrap; 
+    transform: rotate(-180deg);
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    column-gap: 2rem;
+}
+
+
+
+/* - - - - - - - - - -   Form   - - - - - - - - - - */
+
+
+
+.container-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.2rem;
+}
+
+.container-form h1 {
+    font-size: 1.5rem;
+}
+
+.form-section-contacto {
+    width: 100%;
+    padding: 1.2rem;
+    border: solid 1px #c3c3c3;
+    border-radius: 8px;
+}
+
+
+
+/* - - - - - - - - - -   RRSS   - - - - - - - - - - */
+
+
+
+.container-contact-section-contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3.2rem;
+    font-size: 1.2rem;
+}
+
+.container-rrss-section-contacto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container-wpp {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.container-articles-rrss {
+    width: 100%;
+    border-top: solid 1px #fff;
+    padding-top: 1.2rem;
+    column-gap: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.a-instagram {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.a-email {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.iconos-rrss {
+    font-size: 2.4rem;
+}

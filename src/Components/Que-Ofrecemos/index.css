@@ -1,0 +1,157 @@
+.section-ofrecemos {
+    width: 100vw;
+    height: auto;
+    margin-top: 8vh;
+    padding: 5.2rem 3.2rem 6rem 3.2rem;
+    background-color: var(--white-color);
+    font-family: var(--main-font);
+    display: flex;
+    align-items: flex-start;
+    column-gap: 2rem;
+}
+
+ 
+
+/* - - - - - - - - - -   Titulo   - - - - - - - - - - */
+
+
+
+.container-titulo-section-ofrecemos {
+    width: 10%;
+    height: auto;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    white-space: nowrap; 
+    transform: rotate(-180deg);
+    color: var(--main-color);
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+}
+
+
+
+/* - - - - - - - - - -   Cards   - - - - - - - - - - */
+
+
+
+.container-cards-section-ofrecemos {
+    width: 100%;
+    height: auto;
+    padding-right: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 2.4rem;
+}
+
+.cards-section-ofrecemos {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 10px -2px #6a625f;
+}
+
+.container-text-card {
+    width: 100%;
+    height: 100%;
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
+    position: absolute;
+    top: 0;
+    z-index: 996;
+    background: linear-gradient(90deg, rgba(232,232,232,1) 40%, rgba(232,232,232,0.34637605042016806) 82%, rgba(232,232,232,0) 92%);
+}
+
+.container-text-card h1 {
+    width: 70%;
+    color: var(--main-color);
+    font-size: 1.6rem;
+}
+
+.p-uno-card-uno {
+    font-size: .8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 26%;
+    left: 38%;
+}
+
+.container-p-dos-card-uno {
+    width: 55%;
+    font-size: .8rem;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p-dos-card-uno {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contianer-p-card-dos {
+    width: 65%;
+    padding-top: .4rem;
+    font-size: .8rem;
+    font-weight: 300;
+    color: #000;
+    line-height: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.1rem;
+}
+
+.contianer-p-card-dos span {
+    border-bottom: solid 1px var(--main-color);
+}
+
+.p-dos-card-dos {
+    padding-right: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#h1-card-tres {
+    font-size: 1.4rem;
+}
+
+.container-p-card-tres {
+    width: 50%;
+    padding-top: .4rem;
+    font-size: .8rem;
+    font-weight: 300;
+    line-height: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.1rem;
+}
+
+.container-p-card-tres span {
+    border-bottom: solid 1px var(--main-color);
+}
+
+.p-dos-card-tres {
+    padding-right: .4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.img-card-dos {
+    position: relative;
+    left: 10%;
+}
+
+.img-card-tres {
+    position: relative;
+    left: 40%;
+}
+

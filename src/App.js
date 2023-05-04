@@ -1,4 +1,5 @@
 import React from "react";
+import './app.css'
 import { Nav } from "./Components/Nav"
 import { Header } from "./Components/Header";
 import { QueOfrecemos } from "./Components/Que-Ofrecemos";
@@ -12,12 +13,14 @@ function App() {
   return (
     <React.Fragment>
       <Nav />
-      <Header />
-      <QueOfrecemos />
-      <QuienesSomos />
-      <Proyecto />
-      <Caracteristicas />
-      <Contacto />
+      <div className="div-container">
+        <Header />
+        <QueOfrecemos />
+        <QuienesSomos />
+        <Proyecto />
+        <Caracteristicas />
+        <Contacto />
+      </div>
     </React.Fragment>
   );
 }

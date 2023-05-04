@@ -23,6 +23,10 @@ ul, li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 :root {
   --main-color: #785e54;

@@ -48,7 +48,7 @@ function Nav() {
                 <ul className={hamburguer ? "ul-container-nav ul-container-nav-active" : "ul-container-nav"}>
                     <li>
                         <Link 
-                            to=""
+                            to="ofrecemos"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                         >
                             ¿Que Ofrecemos?
@@ -57,11 +57,11 @@ function Nav() {
 
                     <li>
                         <Link 
-                            to=""
+                            to="somos"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                         >
-                            ¿Quines Somos
-                        ?</Link>
+                            ¿Quienes Somos?
+                        </Link>
                     </li>
 
                     <li>
@@ -84,7 +84,7 @@ function Nav() {
 
                     <li>
                         <Link 
-                            to=""
+                            to="contacto"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                         >
                             Contactanos
