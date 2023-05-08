@@ -19,11 +19,11 @@ function Proyecto() {
                     </div>
                 </article>
 
-                <article className="articles-section-proyecto" data-aos-offset="50" data-aos="fade-right">
+                <article className="articles-section-proyecto" data-aos-offset="50" data-aos="fade-left">
                     <img />
 
                     <div className="container-texto-articles">
-                        <h1>UBICACIÓN ESTRATEGICA</h1>
+                        <h1>UBICACIÓN ESTRATÉGICA</h1>
 
                         <p>El proyecto se desarrollará en un punto estratégico de la localidad de <span className="span-proyecto">Godoy Cruz sobre calle Barcala, a metros de Acceso Sur y Sarmiento.</span> Una hermosa zona residencial a <span className="span-proyecto">10 minutos del Centro de la Ciudad.</span></p>
                     </div>

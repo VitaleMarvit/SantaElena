@@ -34,3 +34,413 @@ a {
   --white-color: #e8e8e8;
   --main-font: 'Roboto';
 }
+
+
+
+/* - - - - - - - - - - - - - -   Media Queries   - - - - - - - - - - - - - - */
+
+
+
+@media screen and (min-width: 375px) {
+
+}
+
+@media screen and (min-width: 390px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  .ul-container-nav li {
+    font-size: 2.4rem;
+  }
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+  .container-titulo-section-ofrecemos {
+    font-size: 2.4rem;
+  }
+
+  .container-text-card h1 {
+    font-size: 2.8rem;
+  }
+
+  .div-p-uno-card-uno p {
+    font-size: 1.4rem;
+  }
+
+  .div-p-dos-card-uno {
+    width: 80%;
+  }
+
+  .div-p-dos-card-uno p {
+    font-size: 1.4rem;
+  }
+
+  .div-p-dos-card-uno p:nth-child(2) {
+    padding-right: 1.2rem;
+  }
+
+  .contianer-p-card-dos {
+    font-size: 1.4rem;
+  }
+
+  .p-dos-card-dos {
+    margin-top: 10px;
+  }
+
+  #h1-card-tres {
+    font-size: 2.4rem;
+  }
+
+  .container-p-card-tres {
+    font-size: 1.6rem;
+  }
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+  .container-titulo-section-somos {
+    font-size: 2.4rem;
+  }
+
+  .p-texto-section-somos {
+    font-size: 1.4rem;
+    line-height: 130%;
+  }
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+  .container-titulo-section-proyecto {
+    font-size: 2.4rem;
+  }
+
+  .container-texto-articles h1 {
+    font-size: 2.4rem;
+  }
+
+  .container-texto-articles p {
+    font-size: 2rem;
+  }
+
+  .container-texto-section-proyecto h1 {
+    font-size: 2.4rem;
+  }
+
+  .container-texto-section-proyecto p:nth-child(2) {
+    font-size: 2.4rem;
+  }
+
+  .container-texto-section-proyecto p:nth-child(3) {
+    font-size: 1.4rem;
+  }
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+  .container-titulo-section-caracteristicas {
+    font-size: 2.4rem;
+  }
+
+  .container-ps-section-caracteristicas p {
+    font-size: 1.6rem;
+  }
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  .container-titulo-section-contacto {
+    font-size: 2.4rem;
+  }
+
+  .container-form h1 {
+    font-size: 1.6rem;
+  }
+
+  .container-wpp {
+    font-size: 1.6rem;
+  }
+
+  .iconos-rrss {
+    font-size: 2.6rem;
+  }
+
+  .a-email {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media screen and (min-width: 428px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+  .container-text-card {
+    padding: 2rem;
+  }
+
+  .container-text-card h1 {
+    font-size: 3.2rem;
+  }
+
+  .div-p-uno-card-uno p {
+    font-size: 1.6rem;
+  }
+
+  .div-p-dos-card-uno p {
+    font-size: 1.6rem;
+  }
+
+  .contianer-p-card-dos {
+    font-size: 1.6rem;
+  }
+
+  #h1-card-tres {
+    font-size: 2.6rem;
+  }
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+  .p-texto-section-somos {
+    font-size: 1.6rem;
+  }
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+  .container-texto-articles h1 {
+    font-size: 2.8rem;
+  }
+
+  .container-texto-articles p {
+    font-size: 2.2rem;
+  }
+
+  .container-texto-section-proyecto h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .container-texto-section-proyecto p:nth-child(2) {
+    font-size: 2.8rem;
+  }
+
+  .container-texto-section-proyecto p:nth-child(3) {
+    font-size: 1.8rem;
+}
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+  .container-ps-section-caracteristicas p {
+    font-size: 1.8rem;
+  }
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  .container-contact-section-contacto {
+    row-gap: 4.8rem;
+  }
+
+  .container-form h1 {
+    font-size: 1.8rem;
+  }
+
+  .input-principal {
+    font-size: 1.6rem;
+  }
+
+  .input-mensaje {
+    font-size: 1.6rem;
+  }
+
+  .submit-btn {
+    height: 5vh;
+    font-size: 1.8rem;
+  }
+
+  .container-rrss-section-contacto {
+    row-gap: 2rem;
+  }
+
+  .container-articles-rrss {
+    padding-top: 2rem;
+  }
+
+  .container-wpp {
+    font-size: 1.8rem;
+  }
+
+  .iconos-rrss {
+    font-size: 2.8rem;
+  }
+
+  .a-instagram {
+    font-size: 1.8rem;
+  }
+
+  .a-email {
+    font-size: 1.8rem;
+  }
+  
+}
+
+@media screen and (min-width: 480px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  
+}
+
+@media screen and (min-width: 600px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  
+}
+
+@media screen and (min-width: 768px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+
+
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+
+
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+
+
+
+  /* - - - - - -   Proyecto   - - - - - - */
+
+
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+
+
+  /* - - - - - -   Contacto   - - - - - - */
+
+  
+}

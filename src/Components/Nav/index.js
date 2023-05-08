@@ -51,7 +51,7 @@ function Nav() {
                             to="ofrecemos"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                         >
-                            ¿Que Ofrecemos?
+                            ¿Qué Ofrecemos?
                         </Link>
                     </li>
 
@@ -60,7 +60,7 @@ function Nav() {
                             to="somos"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                         >
-                            ¿Quienes Somos?
+                            ¿Quiénes Somos?
                         </Link>
                     </li>
 
@@ -75,7 +75,7 @@ function Nav() {
 
                     <li>
                         <Link 
-                            to=""
+                            to="caracteristicas"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                         >
                             Caracteristicas

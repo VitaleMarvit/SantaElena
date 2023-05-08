@@ -15,19 +15,29 @@ function Contacto() {
                 <div className="container-form">
                     <h1>CONSULTANOS CUALQUIER DUDA</h1>
                     <form className="form-section-contacto">
-                        <div class="form-group">
+                        {/* <div class="form-group">
                             <label for="email"></label>
                             <input type="email" id="email" name="email" placeholder="Tu Email" required class="input-principal"></input>
-                        </div>
-                        <div class="form-group">
+                        </div> */}
+                        {/* <div class="form-group">
                             <label for="message"></label>
-                            <textarea id="message" name="message" placeholder="Mensaje" required class="input-mensaje"></textarea>
+                            <textarea id="message" name="message" placeholder="Mensaje" required class="inputt-mensaje"></textarea>
+                        </div> */}
+
+                        <div class="input-field">
+                            <input type="text" required spellcheck="false" /> 
+                            <label>Tu Email</label>
+                        </div>
+                        <div class="input-mensaje">
+                            <textarea type="text" required spellcheck="false" /> 
+                            <label>Mensaje</label>
                         </div>
                         <button type="submit" class="submit-btn">
                             Enviar
                             <FontAwesomeIcon icon={faChevronRight} className="arrow-contact"/>
                         </button>
                     </form>
+
                 </div>
 
                 <div className="container-rrss-section-contacto">

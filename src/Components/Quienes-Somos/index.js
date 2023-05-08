@@ -5,7 +5,7 @@ function QuienesSomos() {
     return (
         <section id="somos" className="section-somos">
             <div className="container-titulo-section-somos">
-                <h1>¿Quienes Somos?</h1>
+                <h1>¿Quiénes Somos?</h1>
             </div>
             
             <div className="container-texto-imagenes-section-somos">

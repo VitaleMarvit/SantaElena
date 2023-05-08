@@ -7,7 +7,7 @@ function QueOfrecemos() {
     return (
         <section id="ofrecemos" className="section-ofrecemos">
             <div className="container-titulo-section-ofrecemos">
-                <h1>¿Que Ofrecemos?</h1>
+                <h1>¿Qué Ofrecemos?</h1>
             </div>
 
             <div className="container-cards-section-ofrecemos">

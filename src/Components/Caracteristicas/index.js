@@ -24,7 +24,7 @@ function Caracteristicas() {
     };
     
     return (
-        <section className="section-caracteristicas">
+        <section id="caracteristicas" className="section-caracteristicas">
             <div className="container-titulo-section-caracteristicas">
                 <h1>Características</h1>
             </div>
