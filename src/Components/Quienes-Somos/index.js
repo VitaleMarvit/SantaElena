@@ -28,7 +28,7 @@ function QuienesSomos() {
                     <img />
                 </div>
             </div>
-        </section>
+        </section> 
     )
 }
 

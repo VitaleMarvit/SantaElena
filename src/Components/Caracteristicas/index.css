@@ -1,0 +1,198 @@
+.section-caracteristicas {
+    width: 100vw;
+    height: auto;
+    padding: 6rem 4rem 6rem 0;
+    background-color: var(--white-color);
+    font-family: var(--main-font);
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+/* - - - - - - - - - -   Titulo   - - - - - - - - - - */
+
+
+
+.container-titulo-section-caracteristicas {
+    width: 6rem;
+    height: auto;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    white-space: nowrap;
+    transform: rotate(-180deg); 
+    color: var(--main-color);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    position: sticky;
+    top: calc(8vh + 4rem);
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* - - - - - - - - - -   Carrousel   - - - - - - - - - - */
+
+
+
+.container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.8rem;
+}
+
+.container .master,
+.container .thumbnails {
+    margin: auto;
+    width: 100%;
+}
+
+.container .master {
+    padding-bottom: 0;
+    position: relative;
+}
+
+.master {}
+
+.container .master img {
+    z-index: 1;
+    width: 100%;
+    height: 99%;
+    border-radius: 16px;
+}
+
+.arrow {
+    position: absolute;
+    right: 5%;
+    bottom: 7%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px 5px;
+    height: 1.2rem;
+    width: 1.2rem;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 5%;
+    bottom: 7%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px 5px;
+    height: 1.2rem;
+    width: 1.2rem;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.container .thumbnails {
+    overflow: hidden;
+}
+
+.thumbnails {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.container .thumbnails img {
+    float: left;
+    width: 30%;
+    margin: 0 2%;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+
+.degradado-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(232,232,232,0.7441351540616247) 5%, rgba(232,232,232,0) 25%, rgba(232,232,232,0) 75%, rgba(232,232,232,0.75) 95%, rgba(232,232,232,1) 100%);
+}
+
+.container .thumbnails img:last-child {
+    margin-right: 0!important;
+}
+
+.container .thumbnails img.active {
+    outline: 2px solid #e63946;
+}
+
+
+
+/* - - - - - - - - - -   Carrousel   - - - - - - - - - - */
+
+
+
+.container-principal-section-caracteristicas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.8rem;
+}
+
+.container-ps-section-caracteristicas {
+    width: 100%;
+    height: auto;
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+.container-ps-section-caracteristicas p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.container-ps-section-caracteristicas p:nth-child(2) {
+    border-top: solid 1px var(--main-color);
+    padding-top: 1.2rem;
+}
+
+.container-ps-section-caracteristicas p:nth-child(3) {
+    border-top: solid 1px var(--main-color);
+    padding-top: 1.2rem;
+}
+
+.container-ps-section-caracteristicas p:nth-child(4) {
+    border-top: solid 1px var(--main-color);
+    padding-top: 1.2rem;
+}
+
+.container-ps-section-caracteristicas p:nth-child(5) {
+    border-top: solid 1px var(--main-color);
+    padding-top: 1.2rem;
+}
+
+.container-ps-section-caracteristicas p:nth-child(6) {
+    border-top: solid 1px var(--main-color);
+    padding-top: 1.2rem;
+}
+
+.container-ps-section-caracteristicas p:nth-child(7) {
+    border-top: solid 1px var(--main-color);
+    padding-top: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
