@@ -120,20 +120,13 @@
     justify-content: center;
 }
 
-.titulo-container-nav {
-    font-family: var(--main-font);
+.container-image-nav {
+    width: 40%;
 }
 
-.titulo-container-nav p {
-    font-size: 1.2rem;
-    letter-spacing: .25rem;
-    font-weight: 300;
-}
-
-.titulo-container-nav h2 {
-    font-size: 1.6rem;
-    letter-spacing: .5px;
-    font-weight: 700;
+.container-image-menu {
+    width: 55%;
+    margin-left: 10%;
 }
 
 

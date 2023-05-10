@@ -1,7 +1,8 @@
 import React from "react";
 import './index.css';
-import card2 from '../Assets/card2.jpeg';
-import card3 from '../Assets/card3.jpeg';
+import card1 from '../Assets/Que-ofrecemos-1.jpeg';
+import card2 from '../Assets/Que-ofrecemos-2.jpeg';
+import card3 from '../Assets/Que-ofrecemos-3.jpeg';
 
 function QueOfrecemos() {
     return (
@@ -29,7 +30,7 @@ function QueOfrecemos() {
                         </div>
                     </div>
 
-                    <img className="img-card-uno" src={card2} />
+                    <img className="img-card-uno" src={card1} />
                 </div>
 
                 <div className="cards-section-ofrecemos">

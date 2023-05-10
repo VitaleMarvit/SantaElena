@@ -32,7 +32,7 @@
 
 
 
-/* - - - - - - - - - -   Titulo   - - - - - - - - - - */
+/* - - - - - - - - - -   Texto   - - - - - - - - - - */
 
 
 
@@ -41,6 +41,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    row-gap: 2rem;
 }
 
 .container-p-section-somos {
@@ -76,4 +77,18 @@
     color: var(--main-color);
     font-style: italic;
     font-weight: 500;
+}
+
+
+
+/* - - - - - - - - - -   Texto   - - - - - - - - - - */
+
+
+
+.container-images-section-somos {
+
+}
+
+.imagen-1-somos {
+    width: 70%;
 }

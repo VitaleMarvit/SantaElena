@@ -105,34 +105,11 @@
 }
 
 .img-card-uno {
+    max-width: 140%;
     margin-top: 65%;
+    position: relative;
+    left: -20%;
 }
-
-/* 
-.p-uno-card-uno {
-    font-size: .8rem;
-    font-weight: 300;
-    position: absolute;
-    top: 26%;
-    left: 38%;
-} */
-/* 
-.container-p-dos-card-uno {
-    width: 55%;
-    font-size: .8rem;
-    font-weight: 300;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-} */
-
-/* .p-dos-card-uno {
-    display: flex;
-    width: 95%;
-    flex-direction: column;
-    align-items: flex-end;
-} */
 
 .contianer-p-card-dos {
     width: 85%;
@@ -155,7 +132,10 @@
 }
 
 .img-card-dos {
+    max-width: 130%;
     margin-top: 65%;
+    position: relative;
+    left: -10%;
 }
 
 #h1-card-tres {

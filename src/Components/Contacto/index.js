@@ -2,7 +2,8 @@ import React from "react";
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeOpenText, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpenText, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import contacto from '../Assets/contacto.svg'
 
 function Contacto() {
     return (
@@ -13,7 +14,7 @@ function Contacto() {
 
             <div className="container-contact-section-contacto">
                 <div className="container-form">
-                    <h1>CONSULTANOS CUALQUIER DUDA</h1>
+                    <h1>CONSULTANOS CUALQUIER DUDA<img src={contacto} /></h1>
                     <form className="form-section-contacto">
                         {/* <div class="form-group">
                             <label for="email"></label>

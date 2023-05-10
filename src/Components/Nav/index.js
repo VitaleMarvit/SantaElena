@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import './index.css';
 import { Link } from "react-scroll";
+import imageNav from "../Assets/imagen-nav.png"
+import imageMenu from "../Assets/imagen-menu.png"
 
 function Nav() {
 
@@ -23,25 +25,15 @@ function Nav() {
             </div>
 
             <div className="info-container-nav">
-                <div>
-                    <img />
-                </div>
-
-                <div className="titulo-container-nav">
-                    <p>GRUPO</p>
-                    <h2>SANTA ELENA</h2>
+                <div className="container-image-nav">
+                    <img src={imageNav} />
                 </div>
             </div>
 
             <div className={hamburguer ? "container-modal-nav container-modal-nav-active" : "container-modal-nav"}>
                 <div className="container-titulo-modal-nav">
-                    <div>
-                        <img />
-                    </div>
-
-                    <div className="titulo-container-nav">
-                        <p>GRUPO</p>
-                        <h2>SANTA ELENA</h2>
+                    <div className="container-image-menu">
+                        <img src={imageMenu} />
                     </div>
                 </div>
 

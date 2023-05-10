@@ -2,14 +2,22 @@ import React, {useState} from "react";
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import depto1 from '../Assets/Caracteristicas-1.jpeg';
+import depto2 from '../Assets/Caracteristicas-2.jpeg';
+import depto3 from '../Assets/Caracteristicas-3.jpeg';
+import depto4 from '../Assets/Caracteristicas-4.jpeg';
+import depto5 from '../Assets/Caracteristicas-5.jpeg';
+import depto6 from '../Assets/Caracteristicas-6.jpeg';
+import depto7 from '../Assets/Caracteristicas-7.jpeg';
+import depto8 from '../Assets/Caracteristicas-8.jpeg';
+import depto9 from '../Assets/Caracteristicas-9.jpeg';
+import depto10 from '../Assets/Caracteristicas-10.jpeg';
+import depto11 from '../Assets/Caracteristicas-11.jpeg';
+import depto12 from '../Assets/Caracteristicas-12.jpeg';
+import depto13 from '../Assets/Caracteristicas-13.jpeg';
+import depto14 from '../Assets/Caracteristicas-14.jpeg';
 
-const images = [
-    "https://images.unsplash.com/photo-1500993855538-c6a99f437aa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1504700610630-ac6aba3536d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1546948630-1149ea60dc86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-];
+const images = [depto1,depto2,depto3,depto4,depto5,depto6,depto7,depto8,depto9,depto10,depto11,depto12,depto13,depto14];
 
 function Caracteristicas() {
 

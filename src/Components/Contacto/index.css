@@ -46,6 +46,16 @@
 
 .container-form h1 {
     font-size: 1.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.container-form h1 img {
+    width: 55%;
+    position: absolute;
+    right: -28%;
+    top: -60%;
+    z-index: 11;
 }
 
 .form-section-contacto {

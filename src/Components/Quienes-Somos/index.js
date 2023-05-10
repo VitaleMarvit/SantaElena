@@ -1,5 +1,6 @@
 import React from "react";
 import './index.css';
+import imageSomo1 from '../Assets/quienes-somos-1.svg'
 
 function QuienesSomos() {
     return (
@@ -23,8 +24,8 @@ function QuienesSomos() {
                     <p className="p-texto-section-somos">Este nuevo emprendimiento inmobiliario en Godoy Cruz es el resultado de esta experiencia y conocimiento acumulado.</p>
                 </div>
 
-                <div>
-                    <img />
+                <div className="container-images-section-somos">
+                    <img src={imageSomo1} className="imagen-1-somos" />
                     <img />
                 </div>
             </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import './index.css';
+import energetica from "../Assets/Energetica.svg";
+import ubicacion from "../Assets/Ubicacion.svg";
+import niveles from "../Assets/Niveles.svg";
 
 function Proyecto() {
     return (
@@ -11,7 +14,7 @@ function Proyecto() {
             <div className="container-articles-section-proyecto"> 
 
                 <article className="articles-section-proyecto" data-aos-offset="50" data-aos="fade-left">
-                    <img />
+                    <img src={energetica} />
                     <div className="container-texto-articles">
                         <h1>EFICIENCIA ENERGÉTICA</h1>
 
@@ -20,7 +23,7 @@ function Proyecto() {
                 </article>
 
                 <article className="articles-section-proyecto" data-aos-offset="50" data-aos="fade-left">
-                    <img />
+                    <img src={ubicacion} />
 
                     <div className="container-texto-articles">
                         <h1>UBICACIÓN ESTRATÉGICA</h1>
@@ -30,7 +33,7 @@ function Proyecto() {
                 </article>
 
                 <article className="articles-section-proyecto" data-aos-offset="50" data-aos="fade-left">
-                    <img />
+                    <img src={niveles} />
 
                     <div className="container-texto-articles">
                         <h1>3 NIVELES</h1>
