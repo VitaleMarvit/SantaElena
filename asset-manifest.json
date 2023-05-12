@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SantaElena/static/css/main.af58363d.css",
-    "main.js": "/SantaElena/static/js/main.720f5a8e.js",
+    "main.css": "/SantaElena/static/css/main.f914c38f.css",
+    "main.js": "/SantaElena/static/js/main.e599fb1b.js",
     "static/media/Que-ofrecemos-1.jpeg": "/SantaElena/static/media/Que-ofrecemos-1.3e9fbd051e39fa7ae8e4.jpeg",
     "static/media/Que-ofrecemos-2.jpeg": "/SantaElena/static/media/Que-ofrecemos-2.f7430080dceac93eb21b.jpeg",
     "static/media/Que-ofrecemos-3.jpeg": "/SantaElena/static/media/Que-ofrecemos-3.cb4307a11429988e1a07.jpeg",
@@ -19,19 +19,26 @@
     "static/media/Caracteristicas-9.jpeg": "/SantaElena/static/media/Caracteristicas-9.0e1603f51315ec13ead1.jpeg",
     "static/media/Caracteristicas-8.jpeg": "/SantaElena/static/media/Caracteristicas-8.fcc5392cfde2f31b2660.jpeg",
     "static/media/Caracteristicas-5.jpeg": "/SantaElena/static/media/Caracteristicas-5.634342ee5ae85367887f.jpeg",
-    "static/media/imagen-nav.png": "/SantaElena/static/media/imagen-nav.67eef08a7a4c6be260d6.png",
-    "static/media/imagen-menu.png": "/SantaElena/static/media/imagen-menu.5ece2def56c4403374bf.png",
     "static/media/quienes-somos-1.svg": "/SantaElena/static/media/quienes-somos-1.d08e2ca4c7c2f83ce1fe6757ebe07e80.svg",
+    "static/media/Header.svg": "/SantaElena/static/media/Header.627ecd6b1ec6bf6c5b03ea3874fb8653.svg",
     "static/media/Energetica.svg": "/SantaElena/static/media/Energetica.91f74a73f06492c0ddaebed075a4c3ab.svg",
     "static/media/Niveles.svg": "/SantaElena/static/media/Niveles.3830b0d8d9532682682b27374bfb5ebf.svg",
+    "static/media/Letra-G.svg": "/SantaElena/static/media/Letra-G.6e1af9f471d769259a6b26d19ffe0083.svg",
+    "static/media/Dibujo-maps-desktop.svg": "/SantaElena/static/media/Dibujo-maps-desktop.e806e20d6869d3aab0e200e0380c6dc6.svg",
     "static/media/contacto.svg": "/SantaElena/static/media/contacto.850dc82708e6feb83df04c0a3eb6447c.svg",
     "static/media/Ubicacion.svg": "/SantaElena/static/media/Ubicacion.1c43ae1ad61dbc5d8b618b6b06ee9ec1.svg",
+    "static/media/WEB_SANTAELENA_ICONO WASAP.svg": "/SantaElena/static/media/WEB_SANTAELENA_ICONO WASAP.82dfcb0efc731a56d037f25d57ab21f8.svg",
+    "static/media/WEB_SANTAELENA_FLECHA 2 CON RULITO.svg": "/SantaElena/static/media/WEB_SANTAELENA_FLECHA 2 CON RULITO.37ac3fdb7797613b25d10363437afc50.svg",
+    "static/media/WEB_SANTAELENA_ICONO MAIL.svg": "/SantaElena/static/media/WEB_SANTAELENA_ICONO MAIL.0aec3bdba792ce2a6908b2328a976eb6.svg",
+    "static/media/imagen-nav-2.svg": "/SantaElena/static/media/imagen-nav-2.a3edeeb4d5d09311bc55dfc992f5fa22.svg",
+    "static/media/imagen-menu-2.svg": "/SantaElena/static/media/imagen-menu-2.c5b12f11eeb1f18a6e967e6c4ec56315.svg",
+    "static/media/WEB_SANTAELENA_ICONO INSTA.svg": "/SantaElena/static/media/WEB_SANTAELENA_ICONO INSTA.e317cfc4f2900c5c84673fa5fb7dd4e6.svg",
     "index.html": "/SantaElena/index.html",
-    "main.af58363d.css.map": "/SantaElena/static/css/main.af58363d.css.map",
-    "main.720f5a8e.js.map": "/SantaElena/static/js/main.720f5a8e.js.map"
+    "main.f914c38f.css.map": "/SantaElena/static/css/main.f914c38f.css.map",
+    "main.e599fb1b.js.map": "/SantaElena/static/js/main.e599fb1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.af58363d.css",
-    "static/js/main.720f5a8e.js"
+    "static/css/main.f914c38f.css",
+    "static/js/main.e599fb1b.js"
   ]
 }
