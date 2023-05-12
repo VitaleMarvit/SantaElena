@@ -60,6 +60,14 @@
 .p-uno-section-somos {
     position: relative;
     z-index: 10;
+    text-indent: 10%;
+}
+
+.p-uno-section-somos img {
+    width: 13%;
+    position: absolute;
+    top: -21%;
+    left: -3%;
 }
 
 .letra-G {

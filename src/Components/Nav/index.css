@@ -122,6 +122,11 @@
 
 .container-image-nav {
     width: 40%;
+    cursor: pointer;
+}
+
+.container-image-nav img {
+    fill: #fff;
 }
 
 .container-image-menu {
@@ -180,6 +185,7 @@
     flex-direction: column;
     align-items: flex-start;
     row-gap: 1.2rem;
+    cursor: pointer;
 }
 
 .ul-container-nav-active {

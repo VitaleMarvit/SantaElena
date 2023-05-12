@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import './index.css';
 import { Link } from "react-scroll";
-import imageNav from "../Assets/imagen-nav.png"
-import imageMenu from "../Assets/imagen-menu.png"
+import imageNav from "../Assets/imagen-nav-2.svg"
+import imageMenu from "../Assets/imagen-menu-2.svg"
 
 function Nav() {
 
@@ -26,7 +26,9 @@ function Nav() {
 
             <div className="info-container-nav">
                 <div className="container-image-nav">
-                    <img src={imageNav} />
+                    <Link to="header" spy={true} smooth={true} duration={100} delay={0} offset={-60}>
+                        <img src={imageNav} />
+                    </Link>
                 </div>
             </div>
 
@@ -42,6 +44,7 @@ function Nav() {
                         <Link 
                             to="ofrecemos"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                            spy={true} smooth={true} duration={100} delay={0}
                         >
                             ¿Qué Ofrecemos?
                         </Link>
@@ -51,6 +54,7 @@ function Nav() {
                         <Link 
                             to="somos"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                            spy={true} smooth={true} duration={100} delay={0} offset={-59}
                         >
                             ¿Quiénes Somos?
                         </Link>
@@ -60,6 +64,7 @@ function Nav() {
                         <Link 
                             to="proyecto"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                            spy={true} smooth={true} duration={100} delay={0} offset={-59}
                         >
                             El Proyecto
                         </Link>
@@ -69,6 +74,7 @@ function Nav() {
                         <Link 
                             to="caracteristicas"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                            spy={true} smooth={true} duration={100} delay={0} offset={-59}
                         >
                             Caracteristicas
                         </Link>
@@ -78,6 +84,7 @@ function Nav() {
                         <Link 
                             to="contacto"
                             onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
+                            spy={true} smooth={true} duration={100} delay={0} offset={-59}
                         >
                             Contactanos
                         </Link>

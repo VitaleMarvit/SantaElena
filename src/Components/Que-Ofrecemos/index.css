@@ -1,7 +1,6 @@
 .section-ofrecemos {
     width: 100vw;
     height: auto;
-    margin-top: 8vh;
     padding: 6rem 4rem 6rem 0;
     background-color: var(--white-color);
     font-family: var(--main-font);
@@ -140,6 +139,15 @@
 
 #h1-card-tres {
     font-size: 2.1rem;
+    position: relative;
+}
+
+#h1-card-tres img {
+    width: 40%;
+    transform: rotate(72deg);
+    position: absolute;
+    right: -3%;
+    bottom: -30%;
 }
 
 .container-p-card-tres {
@@ -171,3 +179,126 @@
     left: -15%;
 }
 
+
+.container-general-slider-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container-button-left-cards {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 3%;
+    top: calc(50% - 4rem);
+}
+
+.container-button-left-cards button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    border: solid 1px var(--white-color);
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.container-button-left-cards button:hover {
+    transform: scale(1.15);
+}
+
+.container-button-right-cards {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 3%;
+    top: calc(50% - 4rem);
+}
+
+.container-button-right-cards button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    border: solid 1px var(--white-color);
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.container-button-right-cards button:hover {
+    transform: scale(1.15);
+}
+
+.facon {
+    transition: filter .3s ease-in-out;
+}
+
+.facon:hover {
+    filter: drop-shadow(0 0 2px #616161);
+}
+
+.container-slider-cards {
+    width: 100%;
+    height: auto;
+}
+
+
+
+[type=radio] {
+    display: none;
+  }
+  
+  #slider {
+    height: 30vw;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    perspective: 500px;
+    transform-style: preserve-3d;
+  }
+  
+  #slider label {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0; right: 0;
+    top: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+  }
+  
+  
+  #s1:checked ~ #slide3, #s2:checked ~ #slide1,
+  #s3:checked ~ #slide2 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-80%,0,-100px);
+  }
+  
+  #s1:checked ~ #slide1, #s2:checked ~ #slide2,
+  #s3:checked ~ #slide3 {
+    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+    transform: translate3d(0,0,0);
+  }
+  
+  #s1:checked ~ #slide2, #s2:checked ~ #slide3,
+  #s3:checked ~ #slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(80%,0,-100px);
+  }
+
+.imagenes-card {
+    width: 100%;
+}

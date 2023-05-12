@@ -19,6 +19,7 @@ import depto14 from '../Assets/Caracteristicas-14.jpeg';
 
 const images = [depto1,depto2,depto3,depto4,depto5,depto6,depto7,depto8,depto9,depto10,depto11,depto12,depto13,depto14];
 
+
 function Caracteristicas() {
 
     const [activeIndex, setActiveIndex] = useState(0);
@@ -73,6 +74,45 @@ function Caracteristicas() {
                     <p data-aos-offset="50" data-aos="fade-up">Compromiso energético: paneles solares para iluminación de espacios comunes</p>
 
                     <p data-aos-offset="50" data-aos="fade-up">Terminaciones de excelente calidad</p>
+                </div>
+            </div>
+            
+            <div className="container-principal-section-caracteristicas-dos">
+                <div className="container">
+                    <div className="master">
+                        <img src={images[activeIndex]} alt="master" />
+                        <FontAwesomeIcon icon={faChevronLeft} className="arrow arrow-left" onClick={handlePrevClick} />
+                        <FontAwesomeIcon icon={faChevronRight} className="arrow" onClick={handleNextClick} />
+                    </div>
+
+                    <div className="thumbnails">
+                        {images.map((image, index) => (
+                            <img
+                                key={index}
+                                src={image}
+                                alt={`thumbnail-${index}`}
+                                className={activeIndex === index ? "active" : ""}
+                                onClick={() => setActiveIndex(index)}
+                            />
+                        ))}
+                        <div className="degradado-slider"></div>
+                    </div>
+                </div>
+
+                <div className="container-ps-section-caracteristicas">
+                    <p>Departamentos de 1 y 2 dormitorios distribuidos en 3 niveles</p>
+
+                    <p>Desde 55m2 a 74m2 <br/>+ cochera cubierta propia</p>
+
+                    <p>Seguridad: complejo cerrado con portón automatizado y cámaras de vigilancia</p>
+
+                    <p>SUM</p>
+
+                    <p>Complejo armonizado con espacios verdes</p>
+
+                    <p>Compromiso energético: paneles solares para iluminación de espacios comunes</p>
+
+                    <p>Terminaciones de excelente calidad</p>
                 </div>
             </div>
         </section>

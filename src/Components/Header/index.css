@@ -1,0 +1,12 @@
+.section-header {
+    width: 100vw;
+    height: auto;
+    margin-top: 8vh;
+    padding-block: 4rem;
+    background-color: var(--main-color);
+}
+
+.img-logos {
+    width: 60%;
+    margin-left: 5%;
+}

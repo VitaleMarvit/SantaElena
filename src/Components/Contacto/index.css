@@ -53,7 +53,7 @@
 .container-form h1 img {
     width: 55%;
     position: absolute;
-    right: -28%;
+    right: -25%;
     top: -60%;
     z-index: 11;
 }
@@ -127,6 +127,9 @@
     letter-spacing: 1px;
     cursor: pointer;
     transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .submit-btn:hover {
@@ -287,7 +290,16 @@ textarea:valid ~ label{
     color: #fff;
 }
 
-.iconos-rrss {
-    font-size: 2.4rem;
+.wpp-iconos-rrss {
+    width: 13%;
+    margin-left: 2px;
 }
 
+.insta-iconos-rrss {
+    width: 11%;
+    margin-left: 4px;
+}
+
+.email-iconos-rrss {
+    width: 13%;
+}

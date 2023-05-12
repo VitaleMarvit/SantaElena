@@ -97,6 +97,7 @@
 
 .span-proyecto {
     color: var(--main-color);
+    font-style: italic;
 }
 
 
@@ -141,5 +142,4 @@
     height: 25vh;
     border: solid 1px #ffffff8c;
     border-radius: 16px;
-    box-shadow: 0 0 8px #ffffff8c;
 }
