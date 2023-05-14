@@ -55,7 +55,6 @@
     position: relative;
 }
 
-.master {}
 
 .container .master img {
     z-index: 1;
@@ -108,9 +107,9 @@
 .container .thumbnails img {
     float: left;
     width: 30%;
-    margin: 0 2%;
+    margin: 2% 2%;
     cursor: pointer;
-    transition: all .6s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .degradado-slider {
@@ -127,7 +126,22 @@
 }
 
 .container .thumbnails img.active {
-    outline: 2px solid #e63946;
+    outline: 1px solid #eb6a75;
+}
+
+img.active {
+    left: 0;
+}
+
+.div-thumbnails {
+    position: relative;
+    left: 34%;
+    display: flex;
+    transition: transform .4s ease-in-out;
+}
+
+.inactivo {
+    display: none;
 }
 
 
@@ -196,7 +210,7 @@
     margin-top: 2%;
 }
 
-#secondary-slider .splide__slide {
+#secondary-slider .splide__slide { 
     cursor: pointer;
 }
 

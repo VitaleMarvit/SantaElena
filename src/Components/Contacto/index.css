@@ -280,6 +280,15 @@ textarea:valid ~ label{
     align-items: center;
 }
 
+#container-text-wpp {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-text-wpp a {
+    color: #fff;
+}
+
 .a-instagram {
     font-size: 1.6rem;
     color: #fff;

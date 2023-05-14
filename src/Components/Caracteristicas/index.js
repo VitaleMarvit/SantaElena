@@ -19,17 +19,22 @@ import depto14 from '../Assets/Caracteristicas-14.jpeg';
 
 const images = [depto1,depto2,depto3,depto4,depto5,depto6,depto7,depto8,depto9,depto10,depto11,depto12,depto13,depto14];
 
-
 function Caracteristicas() {
 
     const [activeIndex, setActiveIndex] = useState(0);
 
+    const [scrollPosition, setScrollPosition] = useState(0);
+
     const handlePrevClick = () => {
         setActiveIndex(activeIndex === 0 ? images.length - 1 : activeIndex - 1);
+        const newScrollPosition = scrollPosition - 34; 
+        setScrollPosition(newScrollPosition);
     };
 
     const handleNextClick = () => {
         setActiveIndex(activeIndex === images.length - 1 ? 0 : activeIndex + 1);
+        const newScrollPosition = scrollPosition + 34; 
+        setScrollPosition(newScrollPosition);
     };
     
     return (
@@ -37,13 +42,13 @@ function Caracteristicas() {
             <div className="container-titulo-section-caracteristicas">
                 <h1>Características</h1>
             </div>
-
             <div className="container-principal-section-caracteristicas">
                 <div className="container">
                     <div className="master">
                         <img src={images[activeIndex]} alt="master" />
-                        <FontAwesomeIcon icon={faChevronLeft} className="arrow arrow-left" onClick={handlePrevClick} />
-                        <FontAwesomeIcon icon={faChevronRight} className="arrow" onClick={handleNextClick} />
+                        <FontAwesomeIcon icon={faChevronLeft} className={activeIndex === 0 ? "arrow arrow-left inactivo" : "arrow arrow-left"} onClick={handlePrevClick} />
+                        
+                        <FontAwesomeIcon icon={faChevronRight} className={activeIndex === images.length - 1 ? "arrow inactivo" : "arrow"} onClick={handleNextClick} />
                     </div>
 
                     <div className="thumbnails">
@@ -81,20 +86,24 @@ function Caracteristicas() {
                 <div className="container">
                     <div className="master">
                         <img src={images[activeIndex]} alt="master" />
-                        <FontAwesomeIcon icon={faChevronLeft} className="arrow arrow-left" onClick={handlePrevClick} />
-                        <FontAwesomeIcon icon={faChevronRight} className="arrow" onClick={handleNextClick} />
+
+                        <FontAwesomeIcon icon={faChevronLeft} className={activeIndex === 0 ? "arrow arrow-left inactivo" : "arrow arrow-left"} onClick={handlePrevClick} />
+                        
+                        <FontAwesomeIcon icon={faChevronRight} className={activeIndex === images.length - 1 ? "arrow inactivo" : "arrow"} onClick={handleNextClick} />
                     </div>
 
                     <div className="thumbnails">
-                        {images.map((image, index) => (
-                            <img
-                                key={index}
-                                src={image}
-                                alt={`thumbnail-${index}`}
-                                className={activeIndex === index ? "active" : ""}
-                                onClick={() => setActiveIndex(index)}
-                            />
-                        ))}
+                        <div className="div-thumbnails" style={{ transform: `translateX(-${scrollPosition}%)` }}>
+                            {images.map((image, index) => (
+                                <img
+                                    key={index}
+                                    src={image}
+                                    alt={`thumbnail-${index}`}
+                                    className={activeIndex === index ? "active" : ""}
+                                    onClick={() => setActiveIndex(index)}
+                                />
+                            ))}
+                        </div>
                         <div className="degradado-slider"></div>
                     </div>
                 </div>

@@ -1205,6 +1205,7 @@ a {
   }
 
   #slider label {
+    padding: 0;
     border-radius: 20px;
   }
 
@@ -1606,5 +1607,173 @@ a {
   .arrow-contact {
     font-size: 2rem;
   }
+
+}
+
+@media screen and (min-width: 1440px) {
+  
+  /* - - - - - -   Nav   - - - - - - */
+  
+  
+  
+  /* - - - - - -   Header   - - - - - - */
+  
+  
+  
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+  
+  #slider {
+    height: 35vw;
+  }
+
+  #slider label {
+    width: 60%;
+  }
+
+  .container-text-card {
+    margin-top: 2rem;
+    padding: 3.2rem;
+  }
+
+  .container-text-card h1 {
+    font-size: 4rem;
+  }
+
+  .div-p-uno-card-uno p {
+    font-size: 1.6rem;
+  }
+
+  .div-p-dos-card-uno {
+    width: 73%;
+  }
+
+  .div-p-dos-card-uno p {
+    font-size: 1.6rem;
+  }
+
+  .contianer-p-card-dos {
+    font-size: 1.6rem;
+  }
+
+  #h1-card-tres {
+    font-size: 3rem;
+  }
+
+  .container-p-card-tres {
+    font-size: 1.6rem;
+  }
+
+  .img-card-uno {
+    margin-top: 46%;
+  }
+  
+  .img-card-dos {
+    top: 2%;
+  }
+
+  .img-card-tres {
+    top: -2%;
+  }
+
+  /* - - - - - -   Quienes Somos   - - - - - - */
+  
+  .p-uno-section-somos img {
+    width: 12%;
+    top: -20%;
+    left: -2%;
+  }
+
+  .p-texto-section-somos {
+    font-size: 2.2rem;
+    text-indent: 10%;
+  }
+
+  /* - - - - - -   Proyecto   - - - - - - */
+  
+  .container-texto-articles h1 {
+    font-size: 2.8rem;
+  }
+
+  .container-texto-articles p {
+    font-size: 2rem;
+  }
+
+  .container-texto-section-proyecto h1 {
+    font-size: 2.8rem;
+  }
+
+  .container-texto-section-proyecto p:nth-child(2) {
+    font-size: 2.8rem;
+  }
+
+  .container-texto-section-proyecto p:nth-child(3) {
+    font-size: 1.8rem;
+  }
+
+  .maps {
+    height: 40vh;
+  }
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+  .container-ps-section-caracteristicas p {
+    font-size: 2.4rem;
+  }
+  
+  /* - - - - - -   Contacto   - - - - - - */
+  
+  .container-wpp {
+    font-size: 2.4rem;
+  }
+
+  .a-instagram {
+    font-size: 2.4rem;
+  }
+
+  .a-email {
+    font-size: 2.4rem;
+}
+
+  .container-form h1 {
+    font-size: 2.4rem;
+  }
+
+  .container-form h1 img {
+    width: 70%;
+    right: -37%;
+    top: -90%;
+  }
+
+}
+
+@media screen and (min-width: 2560px) {
+  
+  /* - - - - - -   Nav   - - - - - - */
+  
+  
+  
+  /* - - - - - -   Header   - - - - - - */
+  
+  
+  
+  /* - - - - - -   Que Ofrecemos   - - - - - - */
+  
+  
+  
+  /* - - - - - -   Quienes Somos   - - - - - - */
+  
+  
+
+  /* - - - - - -   Proyecto   - - - - - - */
+  
+  
+
+  /* - - - - - -   Caracteristicas   - - - - - - */
+
+  
+  
+  /* - - - - - -   Contacto   - - - - - - */
+  
+  
 
 }

@@ -31,15 +31,14 @@ function Contacto() {
                             <FontAwesomeIcon icon={faChevronRight} className="arrow-contact"/>
                         </button>
                     </form>
-
                 </div>
 
                 <div className="container-rrss-section-contacto">
                     <div className="container-wpp" data-aos="zoom-in-up" data-aos-offset="50" data-aos-duration="500">
                         <img src={wpp} className="wpp-iconos-rrss" />
-                        <div>
-                            <p>+54 9 2616961197</p>
-                            <p>Mauricio Galdame - ReMax</p>
+                        <div id="container-text-wpp">
+                            <a href="https://api.whatsapp.com/send?phone=5492616961197" target="_blank">+54 9 2616961197</a>
+                            <a href="https://api.whatsapp.com/send?phone=5492616961197" target="_blank">Mauricio Galdame - ReMax</a>
                         </div>
                     </div>
 
@@ -78,9 +77,9 @@ function Contacto() {
                 <div className="container-rrss-section-contacto">
                     <div className="container-wpp" >
                         <img src={wpp} className="wpp-iconos-rrss" />
-                        <div>
-                            <p>+54 9 2616961197</p>
-                            <p>Mauricio Galdame - ReMax</p>
+                        <div id="container-text-wpp">
+                            <a href="https://api.whatsapp.com/send?phone=5492616961197" target="_blank">+54 9 2616961197</a>
+                            <a href="https://api.whatsapp.com/send?phone=5492616961197" target="_blank">Mauricio Galdame - ReMax</a>
                         </div>
                     </div>
 
