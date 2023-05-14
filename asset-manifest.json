@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SantaElena/static/css/main.f914c38f.css",
-    "main.js": "/SantaElena/static/js/main.e599fb1b.js",
+    "main.css": "/SantaElena/static/css/main.7d3dcf7d.css",
+    "main.js": "/SantaElena/static/js/main.9ac94d6e.js",
     "static/media/Que-ofrecemos-1.jpeg": "/SantaElena/static/media/Que-ofrecemos-1.3e9fbd051e39fa7ae8e4.jpeg",
     "static/media/Que-ofrecemos-2.jpeg": "/SantaElena/static/media/Que-ofrecemos-2.f7430080dceac93eb21b.jpeg",
     "static/media/Que-ofrecemos-3.jpeg": "/SantaElena/static/media/Que-ofrecemos-3.cb4307a11429988e1a07.jpeg",
@@ -34,11 +34,11 @@
     "static/media/imagen-menu-2.svg": "/SantaElena/static/media/imagen-menu-2.c5b12f11eeb1f18a6e967e6c4ec56315.svg",
     "static/media/WEB_SANTAELENA_ICONO INSTA.svg": "/SantaElena/static/media/WEB_SANTAELENA_ICONO INSTA.e317cfc4f2900c5c84673fa5fb7dd4e6.svg",
     "index.html": "/SantaElena/index.html",
-    "main.f914c38f.css.map": "/SantaElena/static/css/main.f914c38f.css.map",
-    "main.e599fb1b.js.map": "/SantaElena/static/js/main.e599fb1b.js.map"
+    "main.7d3dcf7d.css.map": "/SantaElena/static/css/main.7d3dcf7d.css.map",
+    "main.9ac94d6e.js.map": "/SantaElena/static/js/main.9ac94d6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f914c38f.css",
-    "static/js/main.e599fb1b.js"
+    "static/css/main.7d3dcf7d.css",
+    "static/js/main.9ac94d6e.js"
   ]
 }
