@@ -68,7 +68,7 @@
     z-index: 996;
     background: linear-gradient(180deg, rgba(232,232,232,1) 0%, rgba(232,232,232,0.9682247899159664) 50%, rgba(232,232,232,0.6432948179271709) 63%, rgba(232,232,232,0) 70%);
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .div-center-cards {
@@ -97,7 +97,7 @@
 .div-p-dos-card-uno {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 85%;
     row-gap: 1px;
 }
 

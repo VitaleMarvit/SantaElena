@@ -52,15 +52,17 @@ function Caracteristicas() {
                     </div>
 
                     <div className="thumbnails">
-                        {images.map((image, index) => (
-                            <img
-                                key={index}
-                                src={image}
-                                alt={`thumbnail-${index}`}
-                                className={activeIndex === index ? "active" : ""}
-                                onClick={() => setActiveIndex(index)}
-                            />
-                        ))}
+                        <div className="div-thumbnails" style={{ transform: `translateX(-${scrollPosition}%)` }}>
+                            {images.map((image, index) => (
+                                <img
+                                    key={index}
+                                    src={image}
+                                    alt={`thumbnail-${index}`}
+                                    className={activeIndex === index ? "active" : ""}
+                                    onClick={() => setActiveIndex(index)}
+                                />
+                            ))}
+                        </div>
                         <div className="degradado-slider"></div>
                     </div>
                 </div>
