@@ -125,12 +125,18 @@
     margin-right: 0!important;
 }
 
+img {
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+}
+
 .container .thumbnails img.active {
-    outline: 1px solid #eb6a75;
+    outline: 2px solid #785e54c2;
 }
 
 img.active {
     left: 0;
+    border-radius: 8px;
 }
 
 .div-thumbnails {

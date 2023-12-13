@@ -6,6 +6,8 @@
     font-family: var(--main-font);
     display: flex;
     align-items: flex-start;
+    z-index: 10;
+    position: sticky;
 }
 
  
@@ -108,6 +110,20 @@
 
 .div-p-dos-card-uno p:nth-child(2) {
     align-self: flex-end;
+}
+
+.circle-card1 {
+    position: absolute;
+    width: 65%;
+    left: 23%;
+    top: 27.5%;
+}
+
+.circle-card2 {
+    position: absolute;
+    width: 95%;
+    left: 3%;
+    top: 22.5%;
 }
 
 .img-card-uno {

@@ -7,6 +7,8 @@ import card1 from '../Assets/Que-ofrecemos-1.jpeg';
 import card2 from '../Assets/Que-ofrecemos-2.jpeg';
 import card3 from '../Assets/Que-ofrecemos-3.jpeg';
 import rulo from '../Assets/WEB_SANTAELENA_FLECHA 2 CON RULITO.svg';
+import circle from '../Assets/Ofrecemos-card1.svg';
+import arrowCircle from '../Assets/Ofrecemos-card2.svg'
 
 
 function QueOfrecemos(element) {
@@ -44,6 +46,7 @@ function QueOfrecemos(element) {
                             <div className="div-p-dos-card-uno">
                                 <p>que se adapta a tus necesidades</p>
                                 <p>y preferencias</p>
+                                <img className="circle-card1" src={circle}/>
                             </div>
                         </div>
                     </div>
@@ -58,6 +61,7 @@ function QueOfrecemos(element) {
                             <div className="contianer-p-card-dos">
                                 <p>Te acompañaremos en todo el proceso brindádote el conocimiento y la experiencia necesaria para que tomes</p>
                                 <p className="p-dos-card-dos">LA MEJOR DECISIÓN</p>
+                                <img className="circle-card2" src={arrowCircle}/>
                             </div>
                         </div>
                     </div>
@@ -78,9 +82,6 @@ function QueOfrecemos(element) {
                     <img className="img-card-tres" src={card3} />
                 </div>
             </div>
-
-
-
 
 
             <div className="container-general-slider-cards">

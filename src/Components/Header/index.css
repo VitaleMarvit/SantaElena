@@ -1,12 +1,32 @@
 .section-header {
     width: 100vw;
-    height: auto;
+    height: 50vh;
     margin-top: 8vh;
-    padding-block: 4rem;
     background-color: var(--main-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.div-logos {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 7.5%;
 }
 
 .img-logos {
-    width: 60%;
+    width: 100%;
     margin-left: 5%;
 }
+
+.div-render {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 23%;
+}
+
+.img-render {
+    transform: scale(2.2);
+}
+
